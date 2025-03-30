@@ -1,8 +1,30 @@
 {
 	"name": "@codeeditorland/edge-devtools",
 	"displayName": "Microsoft Edge Tools for VS Code",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Use the Microsoft Edge Tools from within VS Code to see your site's runtime HTML structure, alter its layout, fix styling issues as well as see your site's network requests.",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandEdgeDevTools#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandEdgeDevTools/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandEdgeDevTools.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
 	"sideEffects": false,
+	"type": "module",
 	"main": "./out/extension",
 	"scripts": {
 		"build": "webpack",
@@ -10,6 +32,7 @@
 		"build-debug": "npm run build -- --mode development --env debug",
 		"build-edge-watch": "npm run build-debug -- --env devtoolsBaseUri=http://localhost:3000/vscode_app.html",
 		"build-watch": "npm run build -- --mode development && npm run watch",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"watch-wp": "webpack --watch"
 	},
 	"contributes": {
@@ -640,6 +663,7 @@
 		"xmlhttprequest": "1.8.0"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/node": "22.13.14",
 		"@types/ws": "8.18.0",
@@ -648,6 +672,9 @@
 		"ts-loader": "9.5.2",
 		"uglify-js": "3.19.3",
 		"unzipper": "0.12.3"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "icon.png",
 	"preview": false,
