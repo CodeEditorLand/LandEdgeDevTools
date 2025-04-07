@@ -663,7 +663,7 @@
 		"xmlhttprequest": "1.8.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.2",
+		"@playform/build": "0.2.3",
 		"@types/fs-extra": "11.0.4",
 		"@types/node": "22.14.0",
 		"@types/ws": "8.18.1",
