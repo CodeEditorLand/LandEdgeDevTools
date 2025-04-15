@@ -656,8 +656,8 @@
 	},
 	"dependencies": {
 		"bufferutil": "4.0.9",
-		"lit-html": "3.2.1",
-		"puppeteer-core": "24.6.0",
+		"lit-html": "3.3.0",
+		"puppeteer-core": "24.6.1",
 		"utf-8-validate": "6.0.5",
 		"ws": "8.18.1",
 		"xmlhttprequest": "1.8.0"
@@ -665,7 +665,7 @@
 	"devDependencies": {
 		"@playform/build": "0.2.3",
 		"@types/fs-extra": "11.0.4",
-		"@types/node": "22.14.0",
+		"@types/node": "22.14.1",
 		"@types/ws": "8.18.1",
 		"fs-extra": "11.3.0",
 		"jest-environment-jsdom": "29.7.0",
