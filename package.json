@@ -657,7 +657,7 @@
 	"dependencies": {
 		"bufferutil": "4.0.9",
 		"lit-html": "3.3.0",
-		"puppeteer-core": "24.6.1",
+		"puppeteer-core": "24.7.0",
 		"utf-8-validate": "6.0.5",
 		"ws": "8.18.1",
 		"xmlhttprequest": "1.8.0"
