@@ -665,7 +665,7 @@
 	"devDependencies": {
 		"@playform/build": "0.2.3",
 		"@types/fs-extra": "11.0.4",
-		"@types/node": "22.15.2",
+		"@types/node": "22.15.3",
 		"@types/ws": "8.18.1",
 		"fs-extra": "11.3.0",
 		"jest-environment-jsdom": "29.7.0",
